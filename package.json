@@ -1,0 +1,49 @@
+{
+  "name": "babel-react-hot-loading",
+  "version": "0.1.0",
+  "description": "A demo setup showcasing, React, Babel, Hot Loading, Stylus and Lab testing",
+  "scripts": {
+    "start": "gulp",
+    "test": "make test-cov",
+    "lint": "gulp lint"
+  },
+  "author": "Mark C.",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chasevida/babel-react-hot-loading.git"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "axis": "^0.4.2",
+    "babel-eslint": "^4.0.5",
+    "babel-loader": "^5.3.2",
+    "browser-sync": "^2.8.1",
+    "code": "^1.5.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-filter": "^3.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^5.1.10",
+    "gulp-shell": "^0.4.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylint": "^1.1.7",
+    "gulp-stylus": "^2.0.5",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4",
+    "jsdom": "^5.6.1",
+    "lab": "^5.14.0",
+    "lab-babel": "^1.1.0",
+    "nib": "^1.1.0",
+    "pretty-hrtime": "^1.0.0",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.8",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.2",
+    "rupture": "^0.6.1",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1",
+    "webpack-split-by-path": "0.0.2"
+  }
+}

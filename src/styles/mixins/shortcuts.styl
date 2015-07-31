@@ -1,0 +1,34 @@
+// mixins/shortcuts.styl
+
+
+// General helpers in shorthand
+
+bg-color(c)
+    background-color c
+
+bg-img(i)
+    background-image url( img-path + i )
+
+bg-position(opts)
+    background-position opts
+
+bg-repeat(opts)
+    background-repeat opts
+
+bg-size(opts = cover)
+    background-size opts
+
+blurry(opts)
+    filter blur(opts)
+
+cursor-hand()
+    cursor pointer
+    cursor hand
+
+opacity(n)
+    -ms-filter  unquote('progid:DXImageTransform.Microsoft.Alpha(Opacity=' + round(n * 100) + ')')
+    filter      unquote('alpha(opacity=' + round(n * 100) + ')')
+    opacity     n
+
+radius(opts = 3px)
+    border-radius opts
